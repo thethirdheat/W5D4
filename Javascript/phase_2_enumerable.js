@@ -12,7 +12,7 @@ function waterbottle(ele) {
   console.log(ele * 2);
 };
 
-a.myEach(waterbottle);
+// a.myEach(waterbottle);
 
 
 
@@ -24,8 +24,8 @@ Array.prototype.myMap = function(callback) {
   return ret;
 };
 
-console.log(a.myMap((ele) => (ele.toString()+ "waterbottle")));
-console.log(a.map((ele) => (ele.toString() + "waterbottle")));
+// console.log(a.myMap((ele) => (ele.toString()+ "waterbottle")));
+// console.log(a.map((ele) => (ele.toString() + "waterbottle")));
 
 Array.prototype.myReduce = function(callback, initialValue = this[0]) {
   let ret = initialValue
@@ -45,5 +45,5 @@ function multiplier(acc, el) {
   return acc;
 }
 
-console.log(a.myReduce(adder, 300));
-console.log(a.myReduce(multiplier));
+// console.log(a.myReduce(adder, 300));
+// console.log(a.myReduce(multiplier));

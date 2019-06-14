@@ -45,6 +45,6 @@ Array.prototype.transpose = function() {
   return ret;
 };
 
-a = [[1,2,3], [4,5,6]];
-console.log(a.transpose());
+// a = [[1,2,3], [4,5,6]];
+// console.log(a.transpose());
 
